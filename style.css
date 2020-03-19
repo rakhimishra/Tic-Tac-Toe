@@ -1,0 +1,135 @@
+/*table.table1 th,td{
+    height: 6em;
+    width: 6em;
+    text-align:center;
+    padding:5px 5px 5px;
+    background-color:beige;
+    font-weight: 100;
+    position: relative;
+    font-size: larger;
+}
+
+td:hover{
+    background-color: cadetblue;
+}
+#tbody{
+    font-size: 20px;
+}
+tcaption{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 10em;
+    margin-top: 10em;
+}
+table{
+    margin-left: 10em;
+    margin-top: 5em;
+}*/
+.A{
+    padding: 1em 5em 0em;
+    font-size: x-large;
+    color:black;
+    font-size: 2em;
+
+}
+.B{
+    padding:1em 5em 1em;
+    font-size: x-large;
+    color:blue;
+    font-size: 2em;
+
+}
+A:hover{
+    background-image()
+}
+
+.table1 h1 {
+    text-align: center;
+}
+.table1 td {
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    position: relative;
+    font-size: 50px;
+    padding-left: 55px;
+  }
+  .table1 table {
+    padding-top: 2em;
+    margin-left: 7em;
+    padding-right: 7em;
+    padding-left:2em;
+    
+    
+  }
+  .table1 td:hover{
+      background-image:linear-gradient(black,grey)
+  }
+
+  .table1 .vert {
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+  }
+  .table1 .hori {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+  .table1{
+      border:2px solid green;
+      margin-left: 5em;
+      margin-top:1em;
+      margin-bottom: 1em;
+      background-image: radial-gradient(red,pink);
+  }
+.score .table2{
+    border:opx solid black;
+	padding: 20px;
+	border-collapse: collapse;
+	border-spacing: 50px 10px;/*it use also th,td,tr tag selector */
+	empty-cells: show;/*hide*/
+	table-layout: auto;/*fixed = in this fetcher containt can go outside table becasue size is fixed*/
+    padding-top: 5em;
+}
+.table2 td{
+    height: 40px;
+    width: 46em;
+    text-align: center;
+    font-size: larger;
+    font-weight: 200;
+}
+.table2 .s{
+    height: 10px;
+    width: 5em;
+    text-align: center;
+    font-size: larger;
+    font-weight: 200;
+    
+}
+.score{
+   
+    margin-top:5em;
+    
+    padding-top:2em;
+    padding-left:2em;
+    padding-right: 2em;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    height: 600x;
+    width: 600px;
+   
+}
+.score h1{
+    padding-left: 120px;
+    
+
+}
+body{
+    background-image:radial-gradient(rgb(226, 191, 124),rgb(67, 119, 63));
+}
+.x{
+    color:blue;
+}
+
