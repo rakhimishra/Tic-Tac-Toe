@@ -8,32 +8,34 @@
 </head>
 <body>
     
-    <div class ="table1" style="float: left;">
+    <div class ="table1" id="main" style="float: left;">
         <h1>Tic-Tac-Toe</h1>
         <table id="id1">
-            
+            <span id="turn">Play</span>
             <tr>
-              <td class="x">X</td>
-              <td class="vert x">X</td>
-              <td class="o">O</td>
+              <td id="box1" onclick="printx('1')" class="x"></td>
+              <td id="box2" onclick="printx('2')"class="vert x"></td>
+              <td id="box3" onclick="printx('3')" class="o"></td>
             </tr>
             <tr>
-              <td class="hori o">O</td>
-              <td class="vert hori o">O</td>
-              <td class="hori o">O</td>
+              <td id="box4" onclick="printx('4')" class="hori o"></td>
+              <td id="box5" onclick="printx('5')" class="vert hori o"></td>
+              <td id="box6" onclick="printx('6')" class="hori o"></td>
             </tr>
             <tr>
-              <td class="x">X</td>
-              <td class="vert o">O</td>
-              <td class="x">X</td>
+              <td id="box7" onclick="printx('7')" class="x"></td>
+              <td id="box8" onclick="printx('8')" class="vert o"></td>
+              <td id="box9" onclick="printx('9')" class="x"></td>
             </tr>
           </table>
-    <div class="A">
+          
+          <button onclick="replay()">Play Again</button>
+    <!--<div class="A">
         Player A's turn
     </div>
     <div class="B">
         Player B's turn
-    </div>
+    </div>-->
 </div>
 
 <div  class ="score" style="float:right;">
@@ -98,5 +100,9 @@
         </tbody>
     </table>
 </div>
+<script src="C:\xampp\htdocs\NewtonSchool\tic-tac-toe\app.js"> </script>
+
+
+
 </body>
 </html>
